@@ -329,8 +329,8 @@ body::before {
 }
 
 .service-card {
-  background: rgba(26, 58, 143, 0.18);
-  border: 2px solid rgba(241, 196, 15, 0.25);
+  background: rgba(26, 58, 143, 0.35);
+  border: 2px solid var(--hero-yellow);
   border-radius: 18px;
   padding: 32px 24px;
   height: 100%;
@@ -353,9 +353,9 @@ body::before {
   pointer-events: none;
 }
 .service-card:hover {
-  transform: translateY(-6px) scale(1.02);
-  border-color: var(--hero-yellow);
-  background: rgba(26, 58, 143, 0.35);
+  transform: translateY(6px) scale(0.98);
+  border-color: rgba(241, 196, 15, 0.25);
+  background: rgba(26, 58, 143, 0.18);
 }
 .service-icon {
   font-size: 2.8rem;
