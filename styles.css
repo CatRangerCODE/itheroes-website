@@ -138,6 +138,17 @@ body::before {
 .stat-number { font-family: "Bangers", cursive; font-size: clamp(2.4rem, 5vw, 3.5rem); color: var(--hero-dark); letter-spacing: 3px; line-height: 1; }
 .stat-label { font-family: "Nunito", sans-serif; font-weight: 700; font-size: 0.85rem; color: rgba(13,13,26,0.7); letter-spacing: 1px; text-transform: uppercase; margin-top: 4px; }
 
+/* ABOUT US */
+.about-us-section{
+  background: linear-gradient(180deg, #0d0d1a 0%, #111a3a 100%);
+  padding: 90px 0 80px; position: relative;
+}
+
+.about-us-text{
+  size: 10px;
+  text-align: center;
+}
+
 /* SERVICES */
 .services-section {
   background: linear-gradient(180deg, #0d0d1a 0%, #111a3a 100%);
