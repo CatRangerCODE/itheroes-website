@@ -148,6 +148,9 @@ body::before {
   size: 10px;
   text-align: center;
 }
+.about-us-text b{
+  color: var(--hero-yellow);
+}
 
 /* SERVICES */
 .services-section {
